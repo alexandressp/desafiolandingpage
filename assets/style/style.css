@@ -1,0 +1,111 @@
+html,
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+  height: 100vh;
+  width: 100vw; }
+
+#conteudo {
+  text-align: center;
+  height: 100vh;
+  width: 100vw; }
+  #conteudo .title {
+    font-size: 4rem;
+    border-bottom: 2px #fff double;
+    padding-bottom: 10px;
+    margin-bottom: 20px; }
+    #conteudo .title h1 {
+      font-size: inherit;
+      font-weight: 900;
+      padding: 0;
+      margin: 0; }
+    #conteudo .title h2 {
+      font-size: inherit;
+      font-weight: 300;
+      padding: 0;
+      margin: 0; }
+  #conteudo .img {
+    width: 80%; }
+  #conteudo .subTitle {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 100%; }
+    #conteudo .subTitle strong {
+      background-color: #383838;
+      line-height: 150%;
+      padding: 1px; }
+  #conteudo .form {
+    background-color: #383838;
+    padding: 50px 50px;
+    text-align: left; }
+    #conteudo .form h1 {
+      font-size: 1rem;
+      font-weight: 900;
+      padding: 0;
+      margin: 0; }
+    #conteudo .form h2 {
+      font-size: 0.7rem;
+      font-weight: 300;
+      padding: 0;
+      margin: 0; }
+    #conteudo .form form {
+      font-size: 0.8rem;
+      padding: 10px 0; }
+      #conteudo .form form .form-group {
+        font-size: 0.7rem;
+        margin-bottom: 10px; }
+        #conteudo .form form .form-group input {
+          font-size: inherit;
+          height: 2.5rem; }
+      #conteudo .form form button {
+        font-size: 0.7rem;
+        font-weight: 300;
+        margin: 10px 0;
+        border-radius: 50px;
+        width: 100%;
+        background-color: #d15c5c;
+        border-bottom: solid 4px #d15c5c;
+        color: #fff;
+        height: 2.5rem; }
+        #conteudo .form form button:hover {
+          border-bottom: solid 4px #a74444;
+          font-weight: 500; }
+    #conteudo .form p {
+      font-size: 0.5rem;
+      font-weight: 300;
+      margin-bottom: 0; }
+  #conteudo .contador {
+    margin-top: 20px;
+    font-size: .8rem; }
+    #conteudo .contador .titulo {
+      font-size: .7rem;
+      font-weight: 400;
+      margin-bottom: 0; }
+    #conteudo .contador .tempo {
+      width: 100%;
+      border: solid 1px #fff;
+      padding: 10px 15px; }
+      #conteudo .contador .tempo p {
+        font-size: 2rem;
+        font-weight: 900;
+        padding: 0;
+        margin: 0;
+        height: 2.5rem; }
+      #conteudo .contador .tempo span {
+        font-size: .7rem;
+        font-weight: 300;
+        padding: 0;
+        margin: 0; }
+
+#footer {
+  margin-top: 20px;
+  font-size: 0.6rem;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+  bottom: 0;
+  width: 100%; }
+
+/*# sourceMappingURL=style.css.map */
